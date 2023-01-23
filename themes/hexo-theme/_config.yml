@@ -46,14 +46,14 @@ head:
 navbar: 
 
   # 左侧名称显示
-  sitename: JoshCyril
+  sitename: Josh Cyril's Blog
   
   # 右侧站内导航链接
   menu: 
     # - name: Home
     #   url: /
-    - name: Tags
-      url: /tags/
+    # - name: Tags
+    #   url: /tags/
     - name: Archives
       url: /archives/
     # - name: 友链
@@ -69,10 +69,10 @@ navbar:
 cover: 
 
   # 显示在最上方 cover 处的站点名称
-  sitename: "JoshCyril's Blog"
+  sitename: "JoshCyril"
 
   # 若 avatar 配置不为空，则优先使用 avatar 覆盖 sitename
-  avatar: 'https://i.imgur.com/v2l4Qbl.png'
+  avatar: 'https://i.imgur.com/6C3CBPe.png'
   
   # sitename/avatar 下方的一句话介绍
   description: 👋, nice to meet you!
@@ -85,10 +85,10 @@ cover:
 
 style: 
 
-  # 颜色配置
+  # 颜色配置 #6200ee #bb86fc
   color: 
-    main_color: '#6200ee'
-    main_color_dark: '#bb86fc'
+    main_color: '#2e2e2e'
+    main_color_dark: '#eaeaea'
 
   # 弧度设置
   radius: 
@@ -103,10 +103,10 @@ style:
   highlight: 
 
     # 默认代码高亮主题
-    default: 
+    default: 'solarized-dark'
 
     # 暗色代码高亮主题
-    darkmode: 
+    darkmode: 'solarized-dark'
 
   # highlight.js 代码高亮
   hljs: 
@@ -139,8 +139,8 @@ meta:
   
   # 默认文章作者（可在front-matter中覆盖）
   author:
-    name: ChrAlpha
-    url: https://chralpha.com
+    name: JoshCyril
+    url: https://JoshCyril.com
   
   # 文章创建日期
   date:
@@ -149,7 +149,7 @@ meta:
   
   # 文章更新日期
   updated:
-    title: '🔄'
+    title: 'Updated: '
     format: 'Do MMM, YY' # 日期格式 http://momentjs.com/docs/
 
   # 文章缩略图
@@ -170,7 +170,7 @@ meta:
 
   # 文章目录
   toc: 
-    enable: false
+    enable: true
     list_number: false
 
   # 文章版权声明
@@ -329,7 +329,7 @@ footer:
   # 例如：将此设为 `2018`，那么页脚就会显示 '© 2018 - 2020'（2020 为最后一次页面生成时间）
   # 如果将此项留空，则单独显示 '© 2020'（2020 为最后一次页面生成时间）
   # 如果你不想显示任何内容，请将此项设为 `false`
-  copyright_since: 
+  copyright_since: false
 
   # 网站计数
   statistics: 
@@ -376,7 +376,7 @@ footer:
 
 # 图片懒加载插件
 lazyload:
-  enable: false
+  enable: true
   loadingImage: 
 
 # 站内搜索插件
@@ -386,7 +386,7 @@ search:
   field: All  # Page | Post | All
 
 # note 标签插件
-note: false
+note: true
 
 # fold 内容折叠插件
 fold: 

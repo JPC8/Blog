@@ -75,6 +75,8 @@ a
 
 img
     max-width 100%
+    border-radius 8px
+    border 1px solid #404040
 
     &.lazy
         -webkit-transition -webkit-filter 0.375s ease 0s
@@ -97,9 +99,8 @@ hr
     overflow hidden
     background transparent
     border 0
-    border-bottom 1px solid #dfe2e5
-    border-bottom-color #eee
-    height .1em
+    border-bottom 1px solid #404040
+    height .045em
     padding 0
     margin 24px 0
     background-color #e1e4e8
@@ -137,7 +138,9 @@ blockquote
     margin 16px 0 16px 0
     padding 0 1em
     color #6a737d
-    border-left .25em solid #dfe2e5
+    border-left .25em solid #9434e3
+    background-color #eaeaea
+    border-radius 8px
 
     >   :first-child
         margin-top 0
@@ -201,7 +204,7 @@ code
     margin 0
     font-size $code_fontsize
     background-color var(--bg-code)
-    border-radius 3px
+    border-radius 8px
 
 a:active
 a:hover
@@ -299,7 +302,7 @@ figure table
     margin-bottom 20px
     padding 0.4rem
     width auto
-    border-radius 3px
+    border-radius 25px
 
     pre
         margin-bottom 0
@@ -363,7 +366,7 @@ overflows
 
     a
         background-color initial
-        color #0366d6
+        color #9434e3
         text-decoration none
 
         &:hover
@@ -390,7 +393,6 @@ overflows
     h1
     h2
         padding-bottom .3em
-        border-bottom 1px solid #eaecef
 
     h6
         font-size .875em
