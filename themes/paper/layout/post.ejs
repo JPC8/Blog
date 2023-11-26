@@ -1,0 +1,24 @@
+<div class="post-main">
+
+    <% if (is_post()) { %>
+    
+        <div class="post-main-title">
+            <%= page.title %>
+        </div>
+        <div class="post-meta">
+            <%- date(page.date, "DD MMMM YYYY") %>
+        </div>
+        <div class="post-md">
+            <%- page.content %>
+        </div>
+        <%- partial('_partial/post/tag') %>
+
+    <% } else { %>
+
+        <div class="post-md">
+            <%- page.content %>
+        </div>
+
+    <% } %>
+
+</div>
