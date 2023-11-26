@@ -15,9 +15,9 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
-  articles: /archives/
+  archives: /archives/
   projects: http://github.com/joshcyril
+  portfolio: https://joshcyril.com
 
 
 # Links to your social media accounts.
@@ -146,7 +146,7 @@ open_graph:
 
 # Enable MathJax support for Latex
 mathjax:
-  enabled: false
+  enabled: true
   
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:

@@ -1,7 +1,9 @@
 nav:
   home: Home
   about: About
-  articles: Writing
+  article: Article
+  archives: Archives
+  portfolio: Portfolio
   tag: Tag
   category: Category
   projects: Projects
@@ -16,9 +18,9 @@ footer:
 
 index:
   find_me_on: Find me on
-  enum_comma: ','
+  enum_comma: ', '
   enum_and: and
-  articles: Writing
+  articles: Blogs
   projects: Projects
   topics: Topics
   most_recent: Most recent
@@ -65,5 +67,5 @@ comments:
   no_js: Please enable JavaScript to view the comments.
 
 tooltip:
-  copy_tip: Copy to clipboard!
+  copy_tip: Copy Code!
   copied: Copied!
